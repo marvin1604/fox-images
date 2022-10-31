@@ -1,3 +1,57 @@
 @import "../_snowpack/pkg/tailwindcss/dist/base.css";
 @import "../_snowpack/pkg/tailwindcss/dist/components.css";
 @import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(224, 224, 223);
+}
+h4{
+    font-size: 14px;
+}
+
+.addButton{
+    margin: 12px;
+    background: rgb(235, 120, 44);
+    border-radius: 20px;
+    padding: 4px 10px;
+    border: 1px solid rgb(203, 140, 33);
+    box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+}
+.addButton:hover, .cleanButton:hover{
+    background: rgb(191, 96, 32);
+}
+.cleanButton{
+    margin: 12px;
+    background: white;
+    border-radius: 20px;
+    padding: 4px 10px;
+    border: 1px solid rgb(203, 140, 33);
+    box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.5);
+    color: rgb(235, 120, 44);
+    font-weight: bold;
+}
+.cleanButton:hover{
+    background: rgb(214, 207, 203);
+}
+#app{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-image{
+    margin: 12px;
+}
+
+.image-all{
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+
+}
